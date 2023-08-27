@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# Overview
+
+This is an outlining tool for writing stories. It is heavily based on [Brandon Sanderson's](https://www.brandonsanderson.com/) plot structure advice from [this lecture](https://youtu.be/Qgbsz7Gnrd8?si=FPmdnQRipOnETdp1) he gave in 2020, as well as [Save the Cat](https://www.goodreads.com/book/show/49464.Save_the_Cat?from_search=true&from_srp=true&qid=cUWRxJelY7&rank=1).
+The intention of this tool is to minimize the overhead of manually organizing an outline.
+
+# Run the App
+
+Dependancies:
+
+- [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+Clone the repo and then start it using `npm`.
+
+```
+git clone git@github.com:sambukowski/outliner.git
+npm start
+```
+
+This will open a window in your browser running the app.
+
+# Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
