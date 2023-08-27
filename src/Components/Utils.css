@@ -1,0 +1,21 @@
+.ost_visual {
+    /* height: 115px; */
+    /* background: gray; */
+    margin: 5px;
+    padding: 5px;
+    /* padding-left: 10px; */
+    /* border-radius: 15px; */
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    /* display: inline-block; */
+    /* vertical-align: top; */
+}
+  
+.input_box {
+    background: lightcoral;
+    border: none;
+    /* color: beige; */
+    font-size: 50px;
+    width: 100%;
+}
