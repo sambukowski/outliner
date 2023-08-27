@@ -9,6 +9,7 @@ import Timeline from "./Timeline";
 import File from "./File";
 
 function App() {
+  // TODO: add state for each tab
   return (
     <div className="App">
       <Tabs className="Tabs">

@@ -3,6 +3,7 @@ import InputBox from "../Utils";
 import StoryData from "./StoryData";
 
 function Overview() {
+  // TODO: move state out of here
   const [title, setTitle] = useState("Title");
   const [author, setAuthor] = useState("your name");
   const [synopsis, setSynopsis] = useState("Synopsis");
