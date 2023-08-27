@@ -13,6 +13,8 @@ Clone the repo and then start it using `npm`.
 
 ```
 git clone git@github.com:sambukowski/outliner.git
+cd outliner
+npm install
 npm start
 ```
 
