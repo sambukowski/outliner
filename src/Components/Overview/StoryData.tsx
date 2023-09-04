@@ -2,7 +2,14 @@ function StoryData() {
   return (
     <div>
       <h1>Story Data</h1>
-      <div>
+      <div
+        style={{
+          borderWidth: "3px",
+          borderColor: "black",
+          margin: "1vh",
+          borderStyle: "solid",
+        }}
+      >
         {/* TODO: create Character data display element */}
         <h2>Character Data</h2>
         <h3>Main Characters: # of</h3>
@@ -12,7 +19,14 @@ function StoryData() {
         <h3>Minor Characters: # of</h3>
         <p>TODO: list of names drop down</p>
       </div>
-      <div>
+      <div
+        style={{
+          borderWidth: "3px",
+          borderColor: "black",
+          margin: "1vh",
+          borderStyle: "solid",
+        }}
+      >
         {/* TODO: create World Building data display element */}
         <h2>World Building Data</h2>
         <h3>Locations: # of</h3>
@@ -22,7 +36,14 @@ function StoryData() {
         <h3>Magic Systems: # of</h3>
         <p>TODO: list of names drop down</p>
       </div>
-      <div>
+      <div
+        style={{
+          borderWidth: "3px",
+          borderColor: "black",
+          margin: "1vh",
+          borderStyle: "solid",
+        }}
+      >
         <h2>Structure and Plot Data</h2>
         <h3>Plot Structure:</h3>
         <h3>Genre</h3>

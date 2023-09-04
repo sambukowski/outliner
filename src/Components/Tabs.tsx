@@ -5,7 +5,6 @@ import Characters from "./Characters";
 import WorldBuilding from "./WorldBuilding";
 import Plot from "./Plot";
 import Outline from "./Outline";
-import Timeline from "./Timeline";
 import File from "./File";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Tab>World Building</Tab>
           <Tab>Plot</Tab>
           <Tab>Outline</Tab>
-          <Tab>Timeline</Tab>
           <Tab>File</Tab>
         </TabList>
         <TabPanel>
@@ -36,9 +34,6 @@ function App() {
         </TabPanel>
         <TabPanel>
           <Outline />
-        </TabPanel>
-        <TabPanel>
-          <Timeline />
         </TabPanel>
         <TabPanel>
           <File />
