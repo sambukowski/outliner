@@ -1,6 +1,6 @@
 # Overview
 
-This is an outlining tool for writing stories. It is heavily based on [Brandon Sanderson's](https://www.brandonsanderson.com/) plot structure advice from [this lecture](https://youtu.be/Qgbsz7Gnrd8?si=FPmdnQRipOnETdp1) he gave in 2020, as well as [Save the Cat](https://www.goodreads.com/book/show/49464.Save_the_Cat?from_search=true&from_srp=true&qid=cUWRxJelY7&rank=1).
+This is an outlining tool for writing stories. It is heavily based on [Brandon Sanderson's](https://www.brandonsanderson.com/) plot structure advice from [this lecture](https://youtu.be/Qgbsz7Gnrd8?si=FPmdnQRipOnETdp1) he gave in 2020, as well as [Save the Cat](https://www.goodreads.com/book/show/49464.Save_the_Cat?from_search=true&from_srp=true&qid=cUWRxJelY7&rank=1) and a few others.
 The intention of this tool is to minimize the overhead of manually organizing an outline while also encouraging writing "best practices".
 
 # Run the App
