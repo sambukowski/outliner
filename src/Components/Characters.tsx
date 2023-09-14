@@ -1,18 +1,13 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
 import "../App.css";
-import DropDown from "./DropDown";
-import InputBox from "./Utils";
-
-function DropDownItem(props: { title: string }) {
-  return <div>{props.title}</div>;
-}
+import { DropDown, DropDownItem } from "./DropDown";
+import { DescriptionBox } from "./Utils";
 
 function MainCharacter(props: { name: string }) {
   // TODO: turn this into a button and passes the correct character into the CharacterPanel for editing
   const [name, setName] = useState(props.name);
-  return <InputBox title={"Title:"} input={name} setInput={setName} />;
+  return <DescriptionBox title={"Title:"} input={name} setInput={setName} />;
 }
 
 function CharacterPanel(props: { name: string }) {
@@ -25,11 +20,12 @@ function CharacterPanel(props: { name: string }) {
       <h1>{props.name}</h1>
       <p>TODO: create CharacterPanel element</p>
       <h2>Character Description</h2>
-      <InputBox
+      <DescriptionBox
         title={"Character Description:"}
         input={description}
         setInput={setDescription}
       />
+      {/* TODO: convert this to it's own element */}
       <div
         style={{
           borderWidth: "3px",
@@ -51,6 +47,7 @@ function CharacterPanel(props: { name: string }) {
           margin: "1vh",
         }}
       >
+        {/* TODO: convert this to it's own element */}
         <div
           style={{
             flex: 1,
@@ -72,6 +69,7 @@ function CharacterPanel(props: { name: string }) {
           <li>bullet 9</li>
           <li>bullet 10</li>
         </div>
+        {/* TODO: convert this to it's own element */}
         <div
           style={{
             flex: 1,

@@ -16,6 +16,11 @@
     background: lightcoral;
     border: none;
     /* color: beige; */
-    font-size: 50px;
+    font-size: 20px;
     width: 100%;
 }
+
+.autoExpand {
+    overflow-y: hidden;  /* Hide vertical scrollbar */
+    resize: none;  /* Disable textarea resizing */
+  }

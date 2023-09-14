@@ -4,7 +4,7 @@ function DropDownItem(props: { title: string }) {
   return <div>{props.title}</div>;
 }
 
-function Dropdown(props: { title: string; options: JSX.Element[] }) {
+function DropDown(props: { title: string; options: JSX.Element[] }) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   //   const [selectedValue, setSelectedValue] = useState<string>("");
 
@@ -35,4 +35,4 @@ function Dropdown(props: { title: string; options: JSX.Element[] }) {
   );
 }
 
-export default Dropdown;
+export { DropDown, DropDownItem };

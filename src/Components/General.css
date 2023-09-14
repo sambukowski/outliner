@@ -1,0 +1,15 @@
+.basic {
+    border-width: 3px;
+    border-color: black;
+    margin: 1vh;
+    border-style: solid;
+}
+
+.basic button {
+    color: white;
+    display: block;
+    margin-bottom: 10px;  /* Add some space between buttons */
+    font-size: 3vh;
+    width: 95%;
+    box-sizing: border-box;  
+}
