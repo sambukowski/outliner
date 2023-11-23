@@ -5,7 +5,7 @@
   margin: 0;
   background-color: #591313;
 }
- 
+
 /* Style App.js wrapper */
 .App {
   width: 100%;
@@ -16,7 +16,7 @@
   justify-content: center;
   overflow: hidden;
 }
- 
+
 /* Tab Container */
 .Tabs {
   width: 100%;
@@ -26,13 +26,14 @@
   /* margin: 3.5rem auto 1.5rem; */
   padding: 1rem 1rem;
   color: #E8F0F2;
+
   /* border-radius: 2rem; */
   @media (max-width: 769px) {
     padding: 2rem 0;
   }
- 
+
 }
- 
+
 .react-tabs {
   -webkit-tap-highlight-color: transparent;
 }
@@ -47,7 +48,7 @@
   /* border-radius: 2rem; */
   padding-left: 0px;
 }
- 
+
 .react-tabs__tab {
   width: 50%;
   padding: 1rem;
@@ -56,26 +57,26 @@
   cursor: pointer;
   transition: all 0.4s;
 }
- 
+
 .react-tabs__tab--selected {
   background: #dbbb19;
   color: #000000;
   font-weight: bold;
 }
- 
+
 .react-tabs__tab--disabled {
   color: GrayText;
   cursor: default;
   font-weight: normal;
 }
- 
+
 .react-tabs__tab:hover {
   /* background: rgba(50, 224, 196, 0.15); */
   /* background: rgba(82, 219, 39, 0.15); */
   background: #939322;
 
 }
- 
+
 /* .react-tabs__tab:first-child {
   border-bottom-left-radius: 2rem;
   border-top-left-radius: 2rem;
@@ -85,11 +86,11 @@
   border-bottom-right-radius: 2rem;
   border-top-right-radius: 2rem;
 } */
- 
+
 .react-tabs__tab-panel {
   display: none;
 }
- 
+
 .react-tabs__tab-panel--selected {
   display: block;
   font-size: 2rem;
@@ -103,6 +104,7 @@
   position: relative;
   width: 100%;
 }
+
 .dropdown-btn {
   background: #1d1f24;
   font-size: 18px;
@@ -116,12 +118,14 @@
   border-radius: 0.5em;
   cursor: pointer;
 }
+
 .arrow {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 6px solid #fff;
   transition: transform ease-in-out 0.3s;
 }
+
 .dropdown-content {
   list-style: none;
   position: absolute;
@@ -130,6 +134,7 @@
   visibility: hidden;
   overflow: hidden;
 }
+
 .dropdown-content li {
   background: #2f3238;
   border-radius: 0.5em;
@@ -138,9 +143,11 @@
   transition: 0.5s;
   /* transition-delay: calc(60ms * var(--delay)); */
 }
+
 .dropdown-content li:hover {
   background: #1d1f24;
 }
+
 .dropdown-content li a {
   display: block;
   padding: 0.7em 0.5em;
@@ -149,11 +156,12 @@
   text-decoration: none;
 }
 
-.dropdown-btn:focus-within + .dropdown-content {
+.dropdown-btn:focus-within+.dropdown-content {
   visibility: visible;
   left: 0;
-} 
-.dropdown-btn:focus-within > .arrow {
+}
+
+.dropdown-btn:focus-within>.arrow {
   transform: rotate(180deg);
 }
 
@@ -163,15 +171,17 @@
 .dropdown:focus-within .dropdown-content li {
   left: 0;
 }
+
 /* .dropdown-btn:focus + .dropdown-content {
   visibility: visible;
 } */
 .dropdown:focus-within .dropdown-content {
   visibility: visible;
 }
+
 /* .dropdown-btn:focus > .arrow {
   transform: rotate(180deg);
 } */
-.dropdown:focus-within .dropdown-btn > .arrow {
+.dropdown:focus-within .dropdown-btn>.arrow {
   transform: rotate(180deg);
 }
